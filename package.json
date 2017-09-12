@@ -8,6 +8,7 @@
     "eslint": "4.6.1",
     "eslint-plugin-prettier": "^2.2.0",
     "nodemon": "^1.11.0",
+    "prettier": "^1.6.1",
     "tap": "^10.7.2"
   },
   "scripts": {
@@ -38,6 +39,15 @@
         {
           "vars": "all",
           "args": "none"
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 100,
+          "singleQuote": true,
+          "tabWidth": 4,
+          "trailingComma": "all"
         }
       ]
     }
