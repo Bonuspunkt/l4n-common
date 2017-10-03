@@ -5,10 +5,9 @@
   "main": "index.js",
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "4.6.1",
-    "eslint-plugin-prettier": "^2.2.0",
-    "nodemon": "^1.11.0",
-    "prettier": "^1.6.1",
+    "eslint": "4.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4",
     "tap": "^10.7.2"
   },
   "scripts": {
@@ -24,7 +23,7 @@
     "parserOptions": {
       "ecmaVersion": 2017,
       "ecmaFeatures": {
-        "experimentalObjectRestSpread": false
+        "experimentalObjectRestSpread": true
       }
     },
     "extends": [
@@ -53,5 +52,8 @@
     }
   },
   "author": "Bonuspunkt",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
 }
